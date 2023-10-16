@@ -17,6 +17,7 @@ export async function getAllPets() {
         return response.data;
     } catch (error) {
         errorHandler(error)
+        return null;
     }
 }
 
